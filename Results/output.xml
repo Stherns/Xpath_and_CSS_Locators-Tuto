@@ -1,186 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-05-07T17:04:14.438737" rpa="false" schemaversion="5">
-<suite id="s1" name="3.CssSelectWithOthersAndMultipleAttributes" source="/Users/SthernSmith/Downloads/mes_projets_github/Xpath_and_Css_Locators/Test_Cases/Css/3.CssSelectWithOthersAndMultipleAttributes.robot">
+<robot generator="Robot 7.2.2 (Python 3.12.8 on darwin)" generated="2025-06-02T12:05:28.472164" rpa="false" schemaversion="5">
+<suite id="s1" name="3.CssSelectWithOthersAndMultipleAttributes" source="/Users/SthernSmith/Downloads/mes_projets_github/xpath_and_css_locators/Test_Cases/Css/3.CssSelectWithOthersAndMultipleAttributes.robot">
 <test id="s1-t1" name="TC to demonstrate Weblocators in Robot FW" line="18">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-07T17:04:14.734183" level="INFO">Opening browser 'Chrome' to base url 'https://www.amazon.fr/'.</msg>
+<msg time="2025-06-02T12:05:28.998075" level="INFO">Opening browser 'Chrome' to base url 'https://www.amazon.fr/'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-07T17:04:14.733795" elapsed="4.490073"/>
+<status status="PASS" start="2025-06-02T12:05:28.997100" elapsed="4.730999"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-07T17:04:19.225432" elapsed="0.371045"/>
+<status status="PASS" start="2025-06-02T12:05:33.729417" elapsed="0.612957"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-07T17:04:20.098623" level="INFO">Slept 500 milliseconds.</msg>
+<msg time="2025-06-02T12:05:34.845169" level="INFO">Slept 500 milliseconds.</msg>
 <arg>0.5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-07T17:04:19.597786" elapsed="0.501018"/>
+<status status="PASS" start="2025-06-02T12:05:34.344254" elapsed="0.501293"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-07T17:04:20.100160" level="INFO">Clicking button 'Refuser'.</msg>
+<msg time="2025-06-02T12:05:34.847350" level="INFO">Clicking button 'Refuser'.</msg>
 <arg>Refuser</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-07T17:04:20.099241" elapsed="0.158070"/>
+<status status="PASS" start="2025-06-02T12:05:34.845997" elapsed="0.213480"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-07T17:04:21.259139" level="INFO">Slept 1 second.</msg>
+<msg time="2025-06-02T12:05:36.062915" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-07T17:04:20.258314" elapsed="1.001015"/>
+<status status="PASS" start="2025-06-02T12:05:35.060007" elapsed="1.003056"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-07T17:04:21.260670" level="INFO">Typing text 'Ring' into text field 'css:input[placeholder='Rechercher Amazon.fr']'.</msg>
+<msg time="2025-06-02T12:05:36.063706" level="INFO">Typing text 'Ring' into text field 'css:input[placeholder='Rechercher Amazon.fr']'.</msg>
 <arg>css:input[placeholder='Rechercher Amazon.fr']</arg>
 <arg>Ring</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-07T17:04:21.259962" elapsed="0.279273"/>
+<status status="PASS" start="2025-06-02T12:05:36.063374" elapsed="0.499432"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-07T17:04:22.540123" level="INFO">Slept 1 second.</msg>
+<msg time="2025-06-02T12:05:37.583227" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-07T17:04:21.539601" elapsed="1.000701"/>
+<status status="PASS" start="2025-06-02T12:05:36.563271" elapsed="1.025817"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-05-07T17:04:22.540628" elapsed="0.244515"/>
+<status status="PASS" start="2025-06-02T12:05:37.589643" elapsed="0.463807"/>
 </kw>
 <doc>This is sample Test case to demonstrate Weblocators in Robot FW</doc>
-<status status="PASS" start="2025-05-07T17:04:14.732417" elapsed="8.053316"/>
+<status status="PASS" start="2025-06-02T12:05:28.993412" elapsed="9.060577"/>
 </test>
 <test id="s1-t2" name="TC to demonstrate Weblocators in Robot FW 2" line="49">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-07T17:04:22.788445" level="INFO">Opening browser 'Chrome' to base url 'https://www.amazon.fr/'.</msg>
+<msg time="2025-06-02T12:05:38.057143" level="INFO">Opening browser 'Chrome' to base url 'https://www.amazon.fr/'.</msg>
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-07T17:04:22.787885" elapsed="3.793861"/>
+<status status="PASS" start="2025-06-02T12:05:38.056579" elapsed="4.355617"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-07T17:04:26.582616" elapsed="0.387836"/>
+<status status="PASS" start="2025-06-02T12:05:42.413382" elapsed="0.489086"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-07T17:04:27.471943" level="INFO">Slept 500 milliseconds.</msg>
+<msg time="2025-06-02T12:05:43.403515" level="INFO">Slept 500 milliseconds.</msg>
 <arg>0.5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-07T17:04:26.970867" elapsed="0.501282"/>
+<status status="PASS" start="2025-06-02T12:05:42.902915" elapsed="0.500750"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-07T17:04:27.473154" level="INFO">Clicking button 'Refuser'.</msg>
+<msg time="2025-06-02T12:05:43.404500" level="INFO">Clicking button 'Refuser'.</msg>
 <arg>Refuser</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-07T17:04:27.472580" elapsed="0.156279"/>
+<status status="PASS" start="2025-06-02T12:05:43.404020" elapsed="0.223362"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-07T17:04:28.629961" level="INFO">Slept 1 second.</msg>
+<msg time="2025-06-02T12:05:44.628962" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-07T17:04:27.629195" elapsed="1.000887"/>
+<status status="PASS" start="2025-06-02T12:05:43.628096" elapsed="1.001095"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-05-07T17:04:28.630604" level="INFO">Typing text 'Light' into text field 'css:input."nav-inputnav-progressive-attribute"[type=text]'.</msg>
-<msg time="2025-05-07T17:04:29.251677" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-24.png"&gt;&lt;img src="selenium-screenshot-24.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2025-05-07T17:04:29.252319" level="FAIL">InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=136.0.7103.93); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Stacktrace:
-0   chromedriver                        0x0000000109fad8b8 chromedriver + 5986488
-1   chromedriver                        0x0000000109fa49ea chromedriver + 5949930
-2   chromedriver                        0x0000000109a5d600 chromedriver + 415232
-3   chromedriver                        0x0000000109a6433e chromedriver + 443198
-4   chromedriver                        0x0000000109a66d43 chromedriver + 453955
-5   chromedriver                        0x0000000109a66df3 chromedriver + 454131
-6   chromedriver                        0x0000000109aaed39 chromedriver + 748857
-7   chromedriver                        0x0000000109aaf521 chromedriver + 750881
-8   chromedriver                        0x0000000109aff241 chromedriver + 1077825
-9   chromedriver                        0x0000000109ad533d chromedriver + 906045
-10  chromedriver                        0x0000000109afc566 chromedriver + 1066342
-11  chromedriver                        0x0000000109ad50e3 chromedriver + 905443
-12  chromedriver                        0x0000000109aa161d chromedriver + 693789
-13  chromedriver                        0x0000000109aa2281 chromedriver + 696961
-14  chromedriver                        0x0000000109f6b580 chromedriver + 5715328
-15  chromedriver                        0x0000000109f6f445 chromedriver + 5731397
-16  chromedriver                        0x0000000109f45ed0 chromedriver + 5562064
-17  chromedriver                        0x0000000109f6fe7b chromedriver + 5734011
-18  chromedriver                        0x0000000109f34de4 chromedriver + 5492196
-19  chromedriver                        0x0000000109f92a98 chromedriver + 5876376
-20  chromedriver                        0x0000000109f92c60 chromedriver + 5876832
-21  chromedriver                        0x0000000109fa45b1 chromedriver + 5948849
-22  libsystem_pthread.dylib             0x00007ff804f31df1 _pthread_start + 99
-23  libsystem_pthread.dylib             0x00007ff804f2d857 thread_start + 15
-</msg>
-<arg>css:input."nav-inputnav-progressive-attribute"[type=text]</arg>
+<msg time="2025-06-02T12:05:44.630683" level="INFO">Typing text 'Light' into text field 'css:input#twotabsearchtextbox[type="text"]'.</msg>
+<arg>css:input#twotabsearchtextbox[type="text"]</arg>
 <arg>Light</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="FAIL" start="2025-05-07T17:04:28.630349" elapsed="0.630669">InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=136.0.7103.93); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Stacktrace:
-0   chromedriver                        0x0000000109fad8b8 chromedriver + 5986488
-1   chromedriver                        0x0000000109fa49ea chromedriver + 5949930
-2   chromedriver                        0x0000000109a5d600 chromedriver + 415232
-3   chromedriver                        0x0000000109a6433e chromedriver + 443198
-4   chromedriver                        0x0000000109a66d43 chromedriver + 453955
-5   chromedriver                        0x0000000109a66df3 chromedriver + 454131
-6   chromedriver                        0x0000000109aaed39 chromedriver + 748857
-    [ Message content over the limit has been removed. ]
-13  chromedriver                        0x0000000109aa2281 chromedriver + 696961
-14  chromedriver                        0x0000000109f6b580 chromedriver + 5715328
-15  chromedriver                        0x0000000109f6f445 chromedriver + 5731397
-16  chromedriver                        0x0000000109f45ed0 chromedriver + 5562064
-17  chromedriver                        0x0000000109f6fe7b chromedriver + 5734011
-18  chromedriver                        0x0000000109f34de4 chromedriver + 5492196
-19  chromedriver                        0x0000000109f92a98 chromedriver + 5876376
-20  chromedriver                        0x0000000109f92c60 chromedriver + 5876832
-21  chromedriver                        0x0000000109fa45b1 chromedriver + 5948849
-22  libsystem_pthread.dylib             0x00007ff804f31df1 _pthread_start + 99
-23  libsystem_pthread.dylib             0x00007ff804f2d857 thread_start + 15</status>
+<status status="PASS" start="2025-06-02T12:05:44.629828" elapsed="0.396550"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-02T12:05:46.028677" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2025-05-07T17:04:29.261926" elapsed="0.000188"/>
+<status status="PASS" start="2025-06-02T12:05:45.027452" elapsed="1.001452"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2025-05-07T17:04:29.262671" elapsed="0.000072"/>
+<status status="PASS" start="2025-06-02T12:05:46.029327" elapsed="0.342932"/>
 </kw>
 <doc>This is sample Test case to demonstrate Weblocators in Robot FW</doc>
-<status status="FAIL" start="2025-05-07T17:04:22.786791" elapsed="6.477137">InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=136.0.7103.93); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Stacktrace:
-0   chromedriver                        0x0000000109fad8b8 chromedriver + 5986488
-1   chromedriver                        0x0000000109fa49ea chromedriver + 5949930
-2   chromedriver                        0x0000000109a5d600 chromedriver + 415232
-3   chromedriver                        0x0000000109a6433e chromedriver + 443198
-4   chromedriver                        0x0000000109a66d43 chromedriver + 453955
-5   chromedriver                        0x0000000109a66df3 chromedriver + 454131
-6   chromedriver                        0x0000000109aaed39 chromedriver + 748857
-    [ Message content over the limit has been removed. ]
-13  chromedriver                        0x0000000109aa2281 chromedriver + 696961
-14  chromedriver                        0x0000000109f6b580 chromedriver + 5715328
-15  chromedriver                        0x0000000109f6f445 chromedriver + 5731397
-16  chromedriver                        0x0000000109f45ed0 chromedriver + 5562064
-17  chromedriver                        0x0000000109f6fe7b chromedriver + 5734011
-18  chromedriver                        0x0000000109f34de4 chromedriver + 5492196
-19  chromedriver                        0x0000000109f92a98 chromedriver + 5876376
-20  chromedriver                        0x0000000109f92c60 chromedriver + 5876832
-21  chromedriver                        0x0000000109fa45b1 chromedriver + 5948849
-22  libsystem_pthread.dylib             0x00007ff804f31df1 _pthread_start + 99
-23  libsystem_pthread.dylib             0x00007ff804f2d857 thread_start + 15</status>
+<status status="PASS" start="2025-06-02T12:05:38.055215" elapsed="8.317885"/>
 </test>
-<status status="FAIL" start="2025-05-07T17:04:14.440326" elapsed="14.825805"/>
+<status status="PASS" start="2025-06-02T12:05:28.476410" elapsed="17.898865"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="1" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="3.CssSelectWithOthersAndMultipleAttributes" id="s1" pass="1" fail="1" skip="0">3.CssSelectWithOthersAndMultipleAttributes</stat>
+<stat name="3.CssSelectWithOthersAndMultipleAttributes" id="s1" pass="2" fail="0" skip="0">3.CssSelectWithOthersAndMultipleAttributes</stat>
 </suite>
 </statistics>
 <errors>

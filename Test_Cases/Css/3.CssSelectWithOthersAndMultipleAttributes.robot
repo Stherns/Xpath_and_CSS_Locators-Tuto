@@ -55,9 +55,9 @@ TC to demonstrate Weblocators in Robot FW 2
     Sleep  1s
 
 #    Input Text  css:input[class='nav-input nav-progressive-attribute'][type=text]  Light
-    Input Text  css:input."nav-input nav-progressive-attribute"[type=text]  Light
+#    Input Text  css:input."nav-input nav-progressive-attribute"[type=text]  Light   #syntax error to check
 
-#    Input Text  css:input#twotabsearchtextbox[type="text"]  Light
+    Input Text  css:input#twotabsearchtextbox[type="text"]  Light
 #    Input Text  css:input#twotabsearchtextbox[name="field-keywords"]  Light
 #    Input Text  css:input#twotabsearchtextbox[placeholder="Rechercher Amazon.fr"]  Light
 #    Input Text  css:input#twotabsearchtextbox[role="searchbox"]  Light
